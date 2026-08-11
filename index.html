@@ -3,10 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>página web SI</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hola mundo</h1>
-    <p>ahora tiene cuerpo</p>
+    <div class="registro">
+        <h1>¡Bienvenido!</h1>
+        <p>vamos a sacarte información muajaja.</p>
+        
+        <form id="formRegistro">
+            <input type="text" id="nombre" placeholder="Nombre completo" required>
+            <input type="number" id="dni" placeholder="DNI (sin puntos)" required>
+            <input type="email" id="gmail" placeholder="Gmail" required>
+            
+            <label for="provincia">provincia:</label>
+            <select id="localidad" required>
+                <option value="" disabled selected>Seleccioná una opción</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Santa Fe">Santa Fe</option>
+            </select>
+
+            <button type="submit" id="btnEnviar">Registrarme</button>
+        </form>
+
+        <div id="mensajeExito"></div>
+    </div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
