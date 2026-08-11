@@ -1,0 +1,7 @@
+
+
+	Originalmente el plan era hacer la página web de un supermercado, pero terminamos desistiendo y decidimos solo hacer una página de registro.
+	repetidamente lidiamos con un problema en la vinculación del archivo js con el index, entonces no podiamos ver los cambios del script en la página.
+	decidimos seguir trabajando hasta terminar el código y así encontramos 	la solución
+	el error estaba en el cierre del código, al estar incompleto no se vinculaba correctamente en los recursos del navegador.
+	una vez terminado el código del script se solucionó el error
